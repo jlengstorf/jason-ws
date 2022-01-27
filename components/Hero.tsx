@@ -10,6 +10,9 @@ const Hero: React.FC<any> = (data) => {
     <section
       className="block hero-block"
       data-kontent-component-id={data.data._system_.id}
+      data-kontent-add-button=""
+      data-kontent-add-button-render-position="bottom"
+      data-kontent-add-button-insert-position="after"
     >
       <canvas className="boop-drop"></canvas>
 

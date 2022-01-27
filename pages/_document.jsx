@@ -69,9 +69,15 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
 
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.10.0/matter.min.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
-          <script src="/home.js"></script>
+          <script
+            async
+            src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.10.0/matter.min.js"
+          ></script>
+          <script
+            async
+            src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"
+          ></script>
+          <script async src="/home.js"></script>
         </body>
       </Html>
     );

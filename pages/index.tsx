@@ -1,4 +1,4 @@
-import type { GetStaticProps, NextPage } from 'next';
+import type { GetServerSideProps, GetStaticProps, NextPage } from 'next';
 import Head from 'next/head';
 import React from 'react';
 import Menu from '../components/Menu';
@@ -10,7 +10,7 @@ import Newsletter from '../components/Newsletter';
 import { ApolloClient, InMemoryCache, gql } from '@apollo/client';
 import RichTextComponent from '../components/RichTextComponent';
 
-export const getStaticProps: GetStaticProps<any> = async ({
+export const getServerSideProps: GetServerSideProps<any> = async ({
   params,
   preview,
 }) => {

@@ -4,8 +4,10 @@ import React from 'react';
 const Header: React.FC = () => {
   return (
     <header>
-      <Link href="/" rel="home" className="home-link">
-        <a>Jason Lengstorf</a>
+      <Link href="/">
+        <a rel="home" className="home-link">
+          Jason Lengstorf
+        </a>
       </Link>
       <nav className="main-nav offset-right">
         <Link href="/posts">

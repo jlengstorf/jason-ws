@@ -21,7 +21,7 @@ export const getStaticProps: GetStaticProps<any> = async ({
     cache: new InMemoryCache(),
     headers: {
       Authorization: `Bearer ${process.env.KONTENT_PREVIEW_KEY}`,
-      'X-KC-Wait-For-Loading-New-Content': true,
+      'X-KC-Wait-For-Loading-New-Content': 'true',
     },
   });
 
